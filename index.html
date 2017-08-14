@@ -6,24 +6,62 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Gurucharan's Portfolio">
+    <meta name="author" content="Gurucharan">
+    <meta name="robots" content="follow,index">
+    <meta property="og:title" content="Gurucharan's Portfolio">
+    <meta property="og:locale" content="en_US">
+    <meta name="description" content="Gurucharan's Portfolio">
+    <meta property="og:description" content="Gurucharan's Portfolio">
+    <link rel="canonical" href="http://www.gurucharan.in/"> 
+    <meta property="og:url" content="http://www.gurucharan.in"> 
+    <meta property="og:site_name" content="Gurucharan's Portfolio">
+    <meta property="og:image" content="./dist/img/skills-bg.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Gurucharan94">
+    <meta name="twitter:creator" content="@Gurucharan94">
+    <meta name="google-site-verification" content="k_yVXly_gCfHfxCfirzHqNFWnt6ZU5f0L88m351p3fk">
+    <meta property="article:author" content="https://www.facebook.com/gurucharan1994">
+    <meta name="twitter:description" content="Gurucharan's Portfolio">
+    <meta name="twitter:title" content="Gurucharan's Portfolio">
 
-    <title>Guru &hearts;&lt;code&gt; </title>
+    <script type="application/ld+json">
+        {
+        "@context":"http://schema.org",
+        "@type":"WebSite",
+        "name":"Gurucharan's blog",
+        "headline":"Gurucharan's blog",
+        "description":"Gurucharan's blog",
+        "url":"http://www.gurucharan.in/",
+        "author":{
+           "@type":"Person",
+           "name":"Gurucharan Subramani",
+           "sameAs":[
+           "https://www.facebook.com/gurucharan1994",
+           "https://www.linkedin.com/in/gurucharan94",
+           "https://github.com/gurucharan94",
+           "https://twitter.com/gurucharan94",
+           "https://medium.com/@gurucharan94/"
+            ]
+        },
+        "image":{
+           "url":"https://avatars3.githubusercontent.com/u/21144140?v=4&s=460",
+           "@type":"imageObject"
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "Gurucharan Subramani"
+	    }
+    }
+    </script>
+    <title>Gurucharan</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./dist/img/logo.png">
+    <link href="dist/css/portfolio.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,15 +86,12 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">                    
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#blog">Blog</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#services">Skills</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -71,22 +106,118 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Hi, I'm Guru. Nice to meet you :)</h1>
+                <h1 id="homeHeading">Hi, I'm Gurucharan Subramani. Nice to meet you :)</h1>
                 <hr>
-                <p>I am a full-stack developer based out of Bangalore, India.I develop web-applications.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Know More</a>
+                <p>I am a full stack developer from Bangalore,India. 
+                    If you are looking to hire to build something great, get in touch. 
+                </p>
+                <a href="#blog" class="btn btn-primary btn-xl page-scroll">Know more about me</a>
+                <a href="#contact" class="btn btn-primary btn-xl page-scroll">Contact me</a>
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
+    <section id="blog">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
-                    <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                <div class="col-lg-12 text-center text-primary">
+                    <h2 class="section-heading">My Blog
+                    </h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-item col-lg-4 col-sm-6">
+                    <a href="dist/img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="dist/img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Blog Post Title Blog Post Title Title of Article
+                                </div>
+                                <div class="project-name">
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item col-lg-4 col-sm-6">
+                    <a href="dist/img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="dist/img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item col-lg-4 col-sm-6">
+                    <a href="dist/img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="dist/img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item col-lg-4 col-sm-6">
+                    <a href="dist/img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="dist/img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item col-lg-4 col-sm-6">
+                    <a href="dist/img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="dist/img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Blog Post Title Blog Post Title Title of Article
+                                </div>
+                                <div class="project-name">
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item col-lg-4 col-sm-6">
+                    <a href="dist/img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="dist/img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -96,176 +227,122 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading text-primary">My Super-Powers</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-4 col-sm-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <i class="fa fa-4x fa-cogs text-primary sr-icons"></i>
+                        <h3>Back-End</h3>
+                        <p class="text-muted"> C# / ASP.NET MVC / REST API <br>
+                            Entity Framework / NUnit / Selenium
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-4 col-sm-6 col-md-offset-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <!-- <i class="devicon-git-plain colored"></i>
+                        <i class="devicon-python-plain-wordmark colored"></i>
+                        <i class="devicon-mysql-plain-wordmark colored"></i> -->
+                        <i class="fa fa-4x fa-laptop text-primary sr-icons"></i>
+                        <h3>Front-End</h3>
+                        <p class="text-muted"> RWD / Bootstrap / Jquery 
+                            <br> Angular / Typescript / Jasmine / Karma
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-4 col-sm-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <!-- <i class="devicon-csharp-plain-wordmark colored"></i>
+                        <i class="devicon-dot-net-plain-wordmark colored"></i>
+                        <i class="devicon-visualstudio-plain colored"></i> -->
+                        <i class="fa fa-4x fa-cloud text-primary sr-icons"></i>
+                        <h3>Cloud and Devops</h3>
+                        <p class="text-muted">Implement CI / CD with Microsoft Azure &amp; Visual Studio Team Services</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-4 col-sm-6 col-md-offset-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <i class="fa fa-4x fa-cubes text-primary sr-icons"></i>
+                        <h3>Others</h3>
+                        <p> SQL / Python / OpenCV 
+                            <br> Git / TFVC
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+    <section id="contact" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-primary">Contact Me</h2>
+                    <hr class="star-primary">
                 </div>
             </div>
-        </div>
-    </section>  
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form id="contactForm" method="post" action="http://getsimpleform.com/messages.json?form_api_token=6b74036d69c0b885256365847afd94d2" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>                     
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="message">Message</label>
+                                <textarea rows="3" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-primary btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>       
+    </section>
 
-    <section id="contact">
+    <section id="social" class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <h2 class="section-heading">Let's Be Friends</h2>
+                    <hr class="light">
+                    <div class="text-center">
+                        <a class="social-links fa fa-facebook fa-2x sr-contact" href="https://www.facebook.com/gurucharan1994"></a>
+                        <a class="social-links fa fa-twitter fa-2x sr-contact" href="https://www.twitter.com/gurucharan94"></a>
+                        <a class="social-links fa fa-linkedin fa-2x sr-contact" href="https://in.linkedin.com/in/gurucharan94"></a>
+                        <a class="social-links fa fa-github fa-2x sr-contact" href="https://www.github.com/gurucharan94"></a>
+                        <a class="social-links fa fa-medium fa-2x sr-contact" href="https://www.medium.com/@gurucharan94"></a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+            </div> 
+         </div> 
+    </section>  
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
+    <script src="dist/js/portfolio.min.js"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5879f7fffac9b3c6"></script> 
 </body>
 
 </html>
