@@ -318,16 +318,16 @@ header {
         margin: 0 auto;
         .portfolio-box-caption {
             color: white;
-            opacity: 0;
             display: block;
-            background: fade(@theme-primary, 90%);
             position: absolute;
             bottom: 0;
             text-align: center;
             width: 100%;
             height: 100%;
-            .transition-all;
             .portfolio-box-caption-content {
+                .transition-all;
+                opacity: 0;
+                background: fade(@theme-primary, 90%);
                 width: 100%;
                 text-align: center;
                 position: absolute;
@@ -336,7 +336,7 @@ header {
                 .project-category,
                 .project-name {
                     .sans-serif-font;
-                    padding: 0 15px;
+                    padding: 5px 15px;
                 }
                 .project-category {
                     text-transform: uppercase;
@@ -346,27 +346,18 @@ header {
                 .project-name {
                     font-size: 14px;
                 }
+                @media (max-width: 992px) {
+                    opacity: 1;
+                }
             }
         }
-        &:hover {
-            .portfolio-box-caption {
+        &:hover, &:active {
+            .portfolio-box-caption-content {
                 opacity: 1;
             }
         }
         &:focus {
             outline: none;
-        }
-        @media (min-width: 768px) {
-            .portfolio-box-caption {
-                .portfolio-box-caption-content {
-                    .project-category {
-                        font-size: 20px;
-                    }
-                    .project-name {
-                        font-size: 14px;
-                    }
-                }
-            }
         }
     }
 }
