@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    .serif-font;
+    .sans-serif-font;
 }
 
 hr {
@@ -164,9 +164,9 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    .background-cover;
+    .background-cover;    
     background-position: center;
-    background-image: url('../img/header-bg.jpg');
+    background: black url('../img/header-bg.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -222,7 +222,22 @@ header {
 // Sections
 
 .section-heading {
-    margin-top: 0;
+    margin-top: 25px;
+}
+
+#about {
+    a.light {
+        color: #ffdead;
+    }
+    p {
+        width:80%;
+        margin: 40px auto;            
+    }
+    @media (min-width: 768px) {
+        p {
+            font-size: 18px;            
+        }
+    }
 }
 
 #services {
@@ -243,7 +258,7 @@ header {
         font-size: 4em;
     }
     @media (min-width: 992px) {
-        background:url('../img/skills-bg.png') center bottom no-repeat;
+        background:url('https://raw.githubusercontent.com/GuruCharan94/misc-files/master/avatar_400.png') center 75% no-repeat;
     }
 }
 // Contact Form
@@ -373,6 +388,9 @@ header {
         color: white;
         margin: 5px;
     }
+    .section-heading {
+        margin-top: 0; 
+    }
 }
 
 
@@ -382,6 +400,9 @@ header {
     color: @theme-primary;
 }
 
+.text-muted {
+    color: #444;
+}
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
@@ -394,6 +415,10 @@ header {
 
 .btn-primary {
     .button-variant(white;@theme-primary;@theme-primary);
+}
+
+.btn-light{
+    .button-variant(@theme-primary,white,white)
 }
 
 .btn-success {
@@ -414,6 +439,10 @@ header {
     margin:5px 20px;
 }
 
+.btn-large {
+    padding: 10px 20px;
+    margin: 25px 20px;
+}
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
