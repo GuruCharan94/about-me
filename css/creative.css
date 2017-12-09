@@ -180,6 +180,9 @@ header .header-content .header-content-inner p {
   color: white;
   font-size: 16px;
   margin-bottom: 50px;
+  text-align: left;
+  max-width: 90%;
+  margin-left: 5%;
 }
 @media (min-width: 768px) {
   header {
@@ -203,7 +206,6 @@ header .header-content .header-content-inner p {
   }
   header .header-content .header-content-inner p {
     font-size: 18px;
-    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
