@@ -42,7 +42,8 @@
     sr.reveal('.sr-contact', {
         duration: 600,
         scale: 0.3,
-        distance: '0px'
+        distance: '0px',
+        mobile: false
     }, 300);
 
 })(jQuery); // End of use strict
