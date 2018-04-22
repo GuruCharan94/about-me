@@ -97,7 +97,8 @@ gulp.task('default', ['minify-css', 'concat-js']);
 gulp.task('browserSync', function() {
     browserSync.init({
         server: {
-            baseDir: ''
+            baseDir: './',
+            index: "index.html"
         },
     })
 })
