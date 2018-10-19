@@ -7,7 +7,7 @@ $(function() {
         },
         submitSuccess: function($form, event) {
             // Prevent spam click and default submit behaviour
-            $("#btnSubmit").attr("disabled", true);
+            $("#contactForm button").attr("disabled", true);
             event.preventDefault();
             $.ajax({
                 url: $('#contactForm').attr( 'action' ),
@@ -17,7 +17,7 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Enable button & show success message
-                    $("#btnSubmit").attr("disabled", false);
+                    $("#contactForm button").attr("disabled", false);
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -30,7 +30,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
-                    // Fail message
+                    $("#contactForm button").attr("disabled", false);
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");

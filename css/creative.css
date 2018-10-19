@@ -979,7 +979,7 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: white;
+  background-color: #e6e6e6;
   border-color: white;
 }
 .btn-default .badge {
@@ -1027,7 +1027,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
+  background-color: #eb3812;
   border-color: #F05F40;
 }
 .btn-primary .badge {
@@ -1075,7 +1075,7 @@ fieldset[disabled] .btn-light:active,
 .btn-light.disabled.active,
 .btn-light[disabled].active,
 fieldset[disabled] .btn-light.active {
-  background-color: white;
+  background-color: #e6e6e6;
   border-color: white;
 }
 .btn-light .badge {
@@ -1124,7 +1124,7 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
+  background-color: #128f76;
   border-color: #18BC9C;
 }
 .btn-success .badge {
