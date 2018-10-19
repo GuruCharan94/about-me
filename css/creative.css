@@ -727,22 +727,30 @@ header .header-content {
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 35px;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: white;
+  color: #ddd;
   font-size: 16px;
   margin-bottom: 50px;
   text-align: left;
   max-width: 90%;
   margin-left: 5%;
+}
+header .header-content .header-content-inner .lead {
+  font-weight: 600;
+  color: white;
+}
+header .header-content .header-content-inner a.lead {
+  text-decoration: underline;
+  color: #ddd;
 }
 @media (min-width: 768px) {
   header {
@@ -762,12 +770,11 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 60px;
+    font-size: 65px;
   }
   header .header-content .header-content-inner p {
+    margin: 50px auto;
     font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .section-heading {
