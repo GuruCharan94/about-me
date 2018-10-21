@@ -816,6 +816,10 @@ header .header-content .header-content-inner a.lead {
   #services {
     background: url("https://raw.githubusercontent.com/GuruCharan94/misc-files/master/avatar_400.png") center 75% no-repeat;
   }
+  #services div.margin-skills {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 #contact .floating-label-form-group {
   position: relative;
