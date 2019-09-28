@@ -6,7 +6,7 @@
   "author": "Start Bootstrap",
   "license": "MIT",
   "devDependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "browser-sync": "^2.26.3",
     "font-awesome": "^4.6.3",
     "gulp": "^3.9.1",
